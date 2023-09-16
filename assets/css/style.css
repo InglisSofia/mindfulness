@@ -30,6 +30,16 @@ header {
     box-shadow: 0 3px 3px #557EA4;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #399484;
+}
+
 /* Main */
 
 main {
