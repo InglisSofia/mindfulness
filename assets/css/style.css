@@ -22,7 +22,7 @@ body {
 /* Header */
 
 header {
-    background-color: white;
+    background-color: #D7FBF5;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -62,7 +62,7 @@ h1 {
 /* Styling Navbar */
 nav {
     position: absolute;
-    background-color: white;
+    background-color: #D7FBF5;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -96,6 +96,10 @@ main {
 }
 
 /* Footer */
+
+footer {
+    background-color: #D7FBF5;
+}
 
 #social-media {
     text-align: center;
