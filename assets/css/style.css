@@ -89,6 +89,7 @@ font-size: 1rem;
 main {
     background-color: aquamarine;
     flex: 1 0 auto;
+    margin-top: 42px;
 
 }
 
