@@ -11,11 +11,11 @@
 /* General body styles */
 
 body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-color: #384551;
-font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #384551;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -50,7 +50,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
     margin-top: 1rem;
 }
@@ -82,7 +82,7 @@ nav {
 }
 
 .toggle-bar-label {
-font-size: 1rem;
+    font-size: 1rem;
 }
 
 /* Main */
@@ -101,39 +101,49 @@ footer {
 }
 
 /* Media query for tablets and larger than 768px */
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem; 
+        padding-right: 1rem;
     }
-    
-#menu {
-    display: flex;
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .toggle-bar-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 300%;
+        line-height: 80px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main */
+
+    main {
+        /* Make main visible again */
+        margin-top: 80px;
+    }
+
 }
 
-#menu > li {
-    padding-left: 1rem;
-}
+/* Media query for laptops and larger than 992px */
+@media screen and (min-width: 992px) {
 
-.toggle-bar-label {
-    display: none;
-}
-
-#logo {
-    font-size: 300%;
-    line-height: 80px;
-    margin: 0 0.5rem;
-}
-
-/* Main */
-
-main {
-    /* Make main visible again */
-    margin-top: 80px;
-}
+    #menu a:hover {
+        border-bottom: 2px solid #384551;
+    }
 
 }
