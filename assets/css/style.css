@@ -40,6 +40,20 @@ h1 {
     color: #399484;
 }
 
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+    margin-top: 1rem;
+}
+
+.active {
+    border-bottom: 2px solid #384551;
+}
+
 /* Main */
 
 main {
