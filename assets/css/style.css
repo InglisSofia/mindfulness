@@ -37,6 +37,7 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    padding-left: 0;
 }
 
 h1 {
@@ -97,4 +98,29 @@ main {
 
 footer {
     background-color: cadetblue;
+}
+
+/* Media query for tablets and larger than 768px */
+@media  screen and (min-width: 768px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem; 
+    }
+    
+#menu {
+    display: flex;
+}
+
+#menu > li {
+    padding-left: 1rem;
+}
+
+.toggle-bar-label {
+    display: none;
+}
+
 }
