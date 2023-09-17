@@ -123,23 +123,35 @@ h3 {
 
 /* Content text Tell me more section */
 
-#tell-more {
-    width: 95%;
-    margin: 10px auto;
+#about {
+    background-color: #0E3B34;
+    color: white;
+
 }
 
-#tell-more h3 {
+#about h3 {
+    margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 120%;
+    line-height: 25px;
+    padding: 10px 10px 0 10px;
+    color: white;
+
 }
 
-#tell-more p {
+#about>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#about p {
     padding: 0 10px 20px 10px;
 }
 
 #why {
-    background-color: #399484;
+    background-color: #0E3B34;
+    color: white;
 }
 
 #why h3 {
@@ -147,6 +159,8 @@ h3 {
     text-align: center;
     font-size: 120%;
     line-height: 25px;
+    padding: 10px 10px 0 10px;
+    color: white;
 }
 
 #why>div {
@@ -156,7 +170,12 @@ h3 {
 }
 
 #why p {
-    padding: 0 10px;
+    padding: 0 10px 20px 10px;
+}
+
+#what {
+    background-color: #0E3B34;
+    color: white;
 }
 
 #what h3 {
@@ -164,6 +183,8 @@ h3 {
     text-align: center;
     font-size: 120%;
     line-height: 25px;
+    padding: 10px 10px 0 10px;
+    color: white;
 }
 
 #what>div {
@@ -172,7 +193,12 @@ h3 {
 }
 
 #what p {
-    padding: 0 10px;
+    padding: 0 10px 20px 10px;
+}
+
+#treatment {
+    background-color: #0E3B34;
+    color: white;
 }
 
 #treatment h3 {
@@ -180,6 +206,8 @@ h3 {
     text-align: center;
     font-size: 120%;
     line-height: 25px;
+    padding: 10px 10px 0 10px;
+    color: white;
 }
 
 #treatment>div {
@@ -188,7 +216,7 @@ h3 {
 }
 
 #treatment p {
-    padding: 0 10px;
+    padding: 0 10px 20px 10px;
 }
 
 /* Footer */
