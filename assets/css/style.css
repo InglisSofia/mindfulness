@@ -102,8 +102,10 @@ main {
     position: relative;
 }
 
+/* Home image text */
+
 #home-image-text {
-    background-color: rgba(202, 245, 241, 0.521);
+    background-color: rgba(202, 245, 241, 0.411);
     font-size: 80%;
     position: absolute;
     top: 10px;
@@ -113,8 +115,14 @@ main {
     margin-left: 10px;
 }
 
-#home-image-text > h2, #home-image-text > h3 {
+#home-image-text>h2 {
     color: #2d4b42;
+
+}
+
+#home-image-text>h3 {
+    color: #2d4b42;
+    font-size: 110%;
 }
 
 
@@ -250,11 +258,16 @@ footer {
         background: url("../images/motoki-tonn-GuCdEgE3Gcw-unsplash.jpg") no-repeat center center/cover;
         position: relative;
     }
-        
+
     /* Home image text */
+
     #home-image-text {
-        width: 300px;
-        left: 10px;
+        font-size: 110%;
+        width: 50%;
+        height: 300px;
+        top: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
     }
 
     /* Main */
@@ -264,7 +277,7 @@ footer {
         margin-top: 80px;
     }
 
-   
+
 
 }
 
@@ -277,26 +290,24 @@ footer {
 
 
 
+    #signup-form {
+        color: #0c362f;
+        background-color: #d7fbf5d3;
+        width: 50%;
+        padding: 30px;
+
+    }
+
 }
 
 /* Media query for screens larger than 1200px */
 @media screen and (min-width: 1200px) {
 
-/* Home page image section */
+    /* Home page image section */
     #home-page-image {
         height: 1000px;
         background: url("../images/motoki-tonn-GuCdEgE3Gcw-unsplash.jpg") no-repeat cover;
         background-position: bottom left 0;
-    }
-
-    #home-image-text {
-        /* rgba to make background semi-transparent */
-        font-size: 200%;
-        position: absolute;
-        top: 20px;
-        width: 45%;
-        height: 420px;
-        padding: 20px 20px 20px 20px;
     }
 
 }
