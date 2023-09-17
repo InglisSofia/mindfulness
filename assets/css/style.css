@@ -42,7 +42,7 @@ header a {
 
 h1 {
     text-transform: uppercase;
-    color: #bdeee5;
+    color: #3a5a54;
 }
 
 #menu {
@@ -102,6 +102,22 @@ main {
     position: relative;
 }
 
+#home-image-text {
+    background-color: rgba(202, 245, 241, 0.521);
+    font-size: 80%;
+    position: absolute;
+    top: 10px;
+    width: 80%;
+    min-height: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+}
+
+#home-image-text > h2, #home-image-text > h3 {
+    color: #2d4b42;
+}
+
+
 h2,
 h3 {
     font-family: 'Montserrat' sans-serif;
@@ -110,14 +126,7 @@ h3 {
     color: #031f1a;
 }
 
-#home-image-text {
-    font-size: 80%;
-    position: absolute;
-    top: 20px;
-    width: 80%;
-    min-height: 100px;
-    padding: 5px 0 5px 5px;
-}
+
 
 /* Content text Tell me more section */
 
@@ -241,14 +250,12 @@ footer {
         background: url("../images/motoki-tonn-GuCdEgE3Gcw-unsplash.jpg") no-repeat center center/cover;
         position: relative;
     }
-        #home-image-text {
-            font-size: 80%;
-            position: absolute;
-            top: 20px;
-            width: 80%;
-            min-height: 100px;
-            padding: 5px 0 5px 0;
-        }
+        
+    /* Home image text */
+    #home-image-text {
+        width: 300px;
+        left: 10px;
+    }
 
     /* Main */
 
@@ -257,15 +264,7 @@ footer {
         margin-top: 80px;
     }
 
-    /* Home page image text */
-    #home-image-text {
-        font-size: 110%;
-        width: 400px;
-        left: 30px;
-        height: 300px;
-        padding: 10px 10px 10px 15px;
-
-    }
+   
 
 }
 
