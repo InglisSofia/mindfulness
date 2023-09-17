@@ -89,10 +89,16 @@ nav {
 /* Main */
 
 main {
-    background-color: aquamarine;
     flex: 1 0 auto;
     margin-top: 42px;
 
+}
+
+/* Home page image section */
+#home-page-image {
+    height: 600px;
+    width: 100%;    
+    background: url("../images/jeremy-thomas-FO7bKvgETgQ-unsplash.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
