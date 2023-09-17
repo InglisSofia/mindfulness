@@ -219,6 +219,14 @@ h3 {
     padding: 0 10px 20px 10px;
 }
 
+/* About image */
+#present-woman-bg {
+    background: url("../images/fuu-j-r2nJPbEYuSQ-unsplash.jpg") no-repeat center center/cover;
+    height: 90vw;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 /* Footer */
 
 footer {
