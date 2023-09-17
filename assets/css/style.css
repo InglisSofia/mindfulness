@@ -136,29 +136,44 @@ h3 {
 
 
 
-/* Content text Tell me more section */
+/* Tell me more section */
 
 #tell-me-more {
     background-color: rgba(212, 252, 248, 0.904);
     padding: 10px;
 }
 
-#tell-me-more>div {
-    background-color: rgba(5, 80, 74, 0.349);
+#about>div {
+    background-color: rgba(212, 252, 248, 0.904);
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
-#tell-me-more h3 {
+
+#about h3 {
     text-align: left;
     padding: 10px 10px 10px 20px;
 
 }
 
-#tell-me-more p {
+#about p {
     font-size: 110%;
     padding: 10px 20px 20px 20px;
+}
+
+#what>div {
+    background-color: rgba(59, 163, 154, 0.349);
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+#how>div {
+    background-color: rgba(59, 163, 154, 0.349);
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 
 /* Form */
@@ -333,5 +348,6 @@ footer {
         background: url("../images/motoki-tonn-GuCdEgE3Gcw-unsplash.jpg") no-repeat cover;
         background-position: bottom left 0;
     }
+
 
 }
