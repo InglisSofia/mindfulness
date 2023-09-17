@@ -105,7 +105,7 @@ main {
 /* Home image text */
 
 #home-image-text {
-    background-color: rgba(202, 245, 241, 0.411);
+    background-color: #d7fbf5a2;
     font-size: 80%;
     position: absolute;
     top: 10px;
@@ -116,12 +116,12 @@ main {
 }
 
 #home-image-text>h2 {
-    color: #2d4b42;
+    color: #22312d;
 
 }
 
 #home-image-text>h3 {
-    color: #2d4b42;
+    color: #17221f;
     font-size: 110%;
 }
 
@@ -172,7 +172,7 @@ h3 {
 
 #signup-form {
     color: #0c362f;
-    background-color: #d7fbf5d3;
+    background-color: #d7fbf5b6;
     padding: 30px;
 }
 
@@ -259,16 +259,20 @@ footer {
         position: relative;
     }
 
-    /* Home image text */
+        /* Home image text */
+    
+        #home-image-text {
+            background-color: #d7fbf5a2;
+            font-size: 110%;
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            width: 50%;
+            min-height: 300px;
+            padding: 10px 5px 0 10px;
+            margin-left: 10px;
+        }
 
-    #home-image-text {
-        font-size: 110%;
-        width: 50%;
-        height: 300px;
-        top: 20px;
-        padding-top: 10px;
-        padding-left: 10px;
-    }
 
     /* Main */
 
@@ -276,7 +280,17 @@ footer {
         /* Make main visible again */
         margin-top: 80px;
     }
+ /* Sign up section */
 
+ #signup-form {
+     color: #0c362f;
+    background-color: #d7fbf5b6;
+     width: 50%;
+     padding: 30px;
+     position: relative;
+     left: 150px;
+
+ }
 
 
 }
@@ -288,17 +302,27 @@ footer {
         border-bottom: 2px solid #384551;
     }
 
+    #home-image-text {
+        background-color: rgba(220, 220, 220, 0);
+        width: 300px;
+        font-size: 120%;
+        
+    }
 
-
+        /* Sign up section */
+    
     #signup-form {
-        color: #0c362f;
-        background-color: #d7fbf5d3;
-        width: 50%;
-        padding: 30px;
+            color: #0c362f;
+            background-color: #d7fbf5b9;
+            width: 25%;
+            padding: 30px;
+            position: relative;
+            left: 375px;
+    
+        }
 
     }
 
-}
 
 /* Media query for screens larger than 1200px */
 @media screen and (min-width: 1200px) {
