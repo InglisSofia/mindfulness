@@ -56,6 +56,10 @@ This is the website of a clinic called Mindfullness and it is also the name of t
 ### Testing
 ### Bugs
 ### Validation
+
+- HTML. No errors or warnings to show.
+- CSS. No errors found.
+  
 ### Accessibility
 
 Mobile

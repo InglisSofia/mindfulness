@@ -124,7 +124,7 @@ main {
 
 h2,
 h3 {
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 120%;
     letter-spacing: 1px;
     color: #031f1a;
@@ -347,7 +347,7 @@ footer {
     /* Home page image section */
     #home-page-image {
         height: 1000px;
-        background: url("../images/motoki-tonn-GuCdEgE3Gcw-unsplash.jpg") no-repeat cover;
+        background: url("../images/motoki-tonn-GuCdEgE3Gcw-unsplash.jpg") no-repeat center/cover;
         background-position: bottom left 0;
     }
 
