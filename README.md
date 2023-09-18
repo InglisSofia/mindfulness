@@ -56,13 +56,11 @@ This is the website of a clinic called Mindfullness and it is also the name of t
 - The navigation bar works as expected on all screen sizes, with the three dots to open and close it on mobile phones, to menu beeing fully visible on tablets and larger. 
 - Menu items are active and links to the different sections when clicked.
 - On laptops and desktop the menu items are underlined when hovered.
-
 - The home section is responsive and well adjusted to different screen sizes.
-- The quote is visible and has good contrast against the background.
-
-- ABOUT THE TELL ME MORE SECTION
-- ABOUT THE SIGNUP SECTION
-- ABOUT FOOTER
+- The quote in the Home section image is visible and has good contrast against the background.
+- The Tell me more section is divided in short texts explaining the affects of mindfulness. There are a bit much information which I tried to separate further for easier reading. Still the text could be scaled down a bit more.
+- The signup form is active and requires user to fill out all input fields. There is also a requirement for an adequate email address before being able to click "Send".
+- In the footer there are four social media icons, each linked to their respective social media platform, opend in a new tab.
 
 ### Unfixed Bugs
 
@@ -71,10 +69,11 @@ This is the website of a clinic called Mindfullness and it is also the name of t
 ### Validation
 
 - HTML. No errors or warnings to show.
-- CSS. No errors found. 1 Warning: Imported style sheets are not checked in direct input and file upload modes
+- CSS. No errors found. 1 Warning: Imported style sheets are not checked in direct input and file upload modes.
 
   
 ### Accessibility
+- Fonts and colors confirmed easy to read by running it through Lighthouse in DevTools.
 
 Mobile
 <img width="100%" alt="Lighthouse mobile-Mindfulness" src="https://github.com/InglisSofia/mindfulness/assets/143741255/a13a484e-25a7-4257-9923-ec64a269dd34">
@@ -86,5 +85,14 @@ Desktop
 
 ## Deployment
 ## Credits
+
+- Some code is inspired by the [Love Running](<https://inglissofia.github.io/loverunning/>) walkthrough project.
+  
 ### Content
+
+- The text content was taken from... FIND HTTP: TO MIN DOKTOR
+- The Icons were taken from FONTAWESOME
+  
 ### Media
+
+- Images are taken from ... FIND IMAGE PAGE
