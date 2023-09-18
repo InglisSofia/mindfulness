@@ -58,7 +58,8 @@ This is the website of a clinic called Mindfullness and it is also the name of t
 ### Validation
 
 - HTML. No errors or warnings to show.
-- CSS. No errors found.
+- CSS. No errors found. 1 Warning: Imported style sheets are not checked in direct input and file upload modes
+
   
 ### Accessibility
 
