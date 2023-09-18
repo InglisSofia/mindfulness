@@ -148,12 +148,14 @@ h3 {
 
 
 #about h3 {
-    text-align: left;
+    text-align: center;
     padding: 10px 10px 10px 20px;
 
 }
 
-#about p {
+#about ul {
+    text-align: left;
+    list-style-type: none;
     font-size: 110%;
     padding: 10px 20px 20px 20px;
 }
@@ -318,6 +320,10 @@ footer {
         width: 300px;
         font-size: 120%;
         
+    }
+
+    #about ul {
+        text-align: center;
     }
 
         /* Sign up section */
