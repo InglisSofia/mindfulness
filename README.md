@@ -19,7 +19,7 @@ This is the website of a clinic called Mindfullness and it is also the name of t
 <img width="141" alt="Navbar mobile open-Mindfulness" src="https://github.com/InglisSofia/mindfulness/assets/143741255/b37b3b40-7b03-4a5b-b399-deff12a3b868">
 
 
-### The Home page
+### Home section
 
 - The section Home includes a picture of a peaceful individual and gives the user a first feel of what mindfulness is.
 
@@ -51,10 +51,23 @@ This is the website of a clinic called Mindfullness and it is also the name of t
 <img width="289" alt="Footer-Mindfulness" src="https://github.com/InglisSofia/mindfulness/assets/143741255/7637dc9a-c353-4931-b972-2ec0835920ab">
 
 
+## Testing
 
-## Testing section
-### Testing
-### Bugs
+- The navigation bar works as expected on all screen sizes, with the three dots to open and close it on mobile phones, to menu beeing fully visible on tablets and larger. 
+- Menu items are active and links to the different sections when clicked.
+- On laptops and desktop the menu items are underlined when hovered.
+
+- The home section is responsive and well adjusted to different screen sizes.
+- The quote is visible and has good contrast against the background.
+
+- ABOUT THE TELL ME MORE SECTION
+- ABOUT THE SIGNUP SECTION
+- ABOUT FOOTER
+
+### Unfixed Bugs
+
+- Tried to target desktops (1200px and larger) to adjust the signup form to be centered in the picture in this section, but did not succeed. When I changed values in the media query for this type of screens, the outcome was also seen on laptop (992px and larger). I eventually chose to keep the design working as I wished for laptop sizes.
+
 ### Validation
 
 - HTML. No errors or warnings to show.
