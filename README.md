@@ -84,15 +84,29 @@ Desktop
 
 
 ## Deployment
+
+This project was deployed to GitHub Pages by using the following steps:
+
+- Open GitHub repository for the project.
+- At the top of the page click the Settings button.
+- On the left side of the screen find and click Pages, i the Code and automation section.
+- Under Build and deployment, find Source and choose Deploy from branch. Under Branch choose main branch and root folder. Click Save.
+- Go back to Code page and refresh after a few minutes.
+- On the right side of the screen find Environments and click github-pages.
+- Click View deployment to visit the deployed website.
+  
+  View this project [Here](https://inglissofia.github.io/mindfulness/) 
+
+
 ## Credits
 
 - Some code is inspired by the [Love Running](<https://inglissofia.github.io/loverunning/>) walkthrough project.
   
 ### Content
 
-- The text content was taken from... FIND HTTP: TO MIN DOKTOR
-- The Icons were taken from FONTAWESOME
+- The text content was taken from [Min Doktor](https://www.mindoktor.se/journalen/vad-ar-mindfulness/)
+- The Icons were taken from [Font Awesome](https://fontawesome.com/)
   
 ### Media
 
-- Images are taken from ... FIND IMAGE PAGE
+- Images are taken from [Unsplash](https://unsplash.com/)
