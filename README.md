@@ -14,6 +14,12 @@
 ### Bugs
 ### Validation
 ### Accessibility
+Mobile
+<img width="356" alt="Lighthouse mobile-Mindfulness" src="https://github.com/InglisSofia/mindfulness/assets/143741255/a13a484e-25a7-4257-9923-ec64a269dd34">
+Desktop
+<img width="356" alt="Lighthouse desktop-Mindfulness" src="https://github.com/InglisSofia/mindfulness/assets/143741255/b693ac26-cc77-4304-8890-11abded27529">
+
+
 ## Deployment
 ## Credits
 ### Content
